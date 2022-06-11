@@ -1,0 +1,15 @@
+[user]
+	name = Fredrik Duprez
+	email = fredrik@duprez.org
+[alias]
+	st = status -sb
+	ll = log --oneline
+	lc = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr)%C(bold blue)<%an>%Creset' --abbrev-commit
+	a = add -A .
+	cm = commit -m
+	rv = remote -v
+	d = diff
+	dv = difftool -t vimdiff -y
+	gl = config --global -l
+	pu = push
+	p = pull
